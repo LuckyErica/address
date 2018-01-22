@@ -1,0 +1,24 @@
+.m-select{position: relative; height:36px;width:234px;border-radius: 5px; margin:50px auto;}
+.m-select-w{width:100px;}
+.m-focus{background-position:100% 100%;position:relative;}
+.m-select{position: relative}
+.m-select i{ display: inline-block; width: 0;height: 0; border-style: dashed;
+ border-color: transparent; overflow: hidden;position: absolute;right: 10px;top: 50%;margin-top: -3px; cursor: pointer;border-width: 6px;border-top-color: #c2c2c2; border-top-style: solid; transition: all .3s;-webkit-transition: all .3s }
+.m-select.on i {margin-top: -9px;-webkit-transform: rotate(180deg); transform: rotate(180deg); margin-top: -3px\9}
+.m-select dt{line-height:35px;background: #fff; border:1px solid #d9d9d9;text-align:left; padding:0 10px;cursor:pointer;height:35px;border-radius:3px; color:#999}
+.m-select dd{width:100%;overflow-y:auto;background:#fff;position:absolute;left:0;top:38px;border-top:2px solid #E3E3E3;border-bottom:2px solid #E3E3E3;border-radius: 5px;box-shadow:0 6px 12px rgba(0,0,0,0.175)}
+.m-select dd a{display:block;font-size:14px;text-indent:1em;line-height:32px;border-right:2px solid #E3E3E3;border-left:2px solid #E3E3E3;height:32px;}
+.m-select dd a:hover{text-decoration:none;background:#eee;}
+
+.m-select dd.age,.m-select dd.height{width:400px;border:2px solid #E3E3E3;}
+.m-select dd.age a,.m-select dd.height a{float:left;width:40px;text-align:center;border:none;display:inline-block;text-indent:0;height:24px;line-height:24px;}
+
+.m-select dd.region{width:405px;height:200px;border:2px solid #E3E3E3; z-index: 200}
+.region .tab{position: relative; height:45px;padding:10px 0 0 10px;}
+.region .tab li{float:left;height:24px;line-height:24px;padding:0 20px;border:1px solid #E3E3E3;margin-right:5px;cursor:pointer;}
+.region .tab li.on{border:2px solid #7DB3D4;cursor:default;position:relative;background:#7DB3D4;color:#fff;}
+.region .tab em{position: absolute; right:20px;height:24px; line-height: 24px; cursor: pointer}
+.region .tab-con{border-top:2px solid #7DB3D4;padding:10px;position:relative;top:-2px;background:#fff;}
+.m-select dd.region a{float:left;text-align:center;border:none;width:62px;overflow:hidden;overflow:hidden;display:inline-block;text-indent:0;}
+.m-form .form-item{position:static;margin-bottom:200px;}
+.m-select dd.region a.on{background: #eee}
